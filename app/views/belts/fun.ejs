@@ -1,0 +1,6 @@
+<% layout('../layouts/layout') -%>
+<% for (var i = 0, count = funs.length; i < count; i++) { %>
+    <% var record = funs[i]; %>
+    <div id="fun_page"><%= record.status %></div>
+<% } %>
+<a href="/fun">Еще</a> <a href="/">Назад</a> 

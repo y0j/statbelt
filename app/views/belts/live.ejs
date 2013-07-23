@@ -1,0 +1,6 @@
+<% layout('../layouts/layout') -%>
+<% for (var i = 0, count = lives.length; i < count; i++) { %>
+        <% var record = lives[i]; %>
+        <div id="live_page"><%= record.status %></div>
+<% } %>
+<a href="/live">Еще</a> <a href="/">Назад</a> 

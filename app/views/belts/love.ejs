@@ -1,0 +1,6 @@
+<% layout('../layouts/layout') -%>
+<% for (var i = 0, count = loves.length; i < count; i++) { %>
+        <% var record = loves[i]; %>
+        <div id="love_page"><%= record.status %></div>
+<% } %>
+<a href="/love">Еще</a> <a href="/">Назад</a> 
