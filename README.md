@@ -1,2 +1,1 @@
-Simple node.js web application example with express + ejs + mongoose
-Endless status belt
+Simple node.js web application example with express + ejs + mongoose.
